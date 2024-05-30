@@ -1,143 +1,143 @@
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "24728fa16db7403a7f25a51206c46915f21a9ac7"
+git-tree-sha1 = "7c2eb94138d929bf3b5ea0a6756f2e0e37ff406b"
 os = "macos"
 
     [[cminpack.download]]
-    sha256 = "ca351e03f48d9f5856c7c56637df1b67262d41c002ab4a311be3d4c0fd646b32"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.aarch64-apple-darwin.tar.gz"
+    sha256 = "daabbd3413eacdde2bd246b7d5626874d6d4f267f747e7e6ac72636873d20b09"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.aarch64-apple-darwin.tar.gz"
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "e36adb766033794092594164b61461a7525df650"
+git-tree-sha1 = "a0e8ac35c9855572167e89eff30a90b99d2fe6f7"
 libc = "glibc"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "821a8620501f2be044ba8d40595b4f0e55d85b852fc9526fe5f7662ef23f9cff"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.aarch64-linux-gnu.tar.gz"
+    sha256 = "38a5e149bde4ff162a5b76b0ef2ab03125cf33abbd72a35f3df3abc4a3c90eee"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.aarch64-linux-gnu.tar.gz"
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "cdea9e14c2c67139bddbc45a08a9a3a7fd2aff5f"
+git-tree-sha1 = "0425778eb7da5fa93b8742a18ccbc94971ee9928"
 libc = "musl"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "03aab38aa64c2a634205756ce9ca9a1b084ecb70a96e35e0bff3f93a70413d99"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.aarch64-linux-musl.tar.gz"
+    sha256 = "0d0ae69ff48a40916d064ebf0e1be048adeef3bded2dafac8546a1b133503952"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.aarch64-linux-musl.tar.gz"
 [[cminpack]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "b4f076c71127aab8074d5d0e5112f192bd87c64d"
+git-tree-sha1 = "4034e5aebb6c16cf2e5ee95925224cf5ce8b7e17"
 libc = "glibc"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "ba6d29dc0958e3069a2d41a48b03cddc95626d18935f103cf55558952a660455"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "eabbba04e541f1fcbde181520ad186e898f35aeb6e82b909b9dc24871ef6a8cb"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.armv6l-linux-gnueabihf.tar.gz"
 [[cminpack]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "9e805e34d37417a4624f40f2e541c7571ffab25a"
+git-tree-sha1 = "f4ee5d9505f6bd4c824d5974cce269a771c10377"
 libc = "musl"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "38ad919f5c0659f7f058c311d87b349e249abbbd7796fbde42d7986d735234e6"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "c2c95dd060c49d2378645e01c36946ae87931e7c695857858fbcb712c7baa7bc"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.armv6l-linux-musleabihf.tar.gz"
 [[cminpack]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "39deabe9363c59648ee4de3b1a1b6ab6c72e7b65"
+git-tree-sha1 = "0fa4dc9a4f3636ace62112be900c8da754bf1861"
 libc = "glibc"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "86a06fef7c1d8b1e7ad24592ba96a8840294e78874e2f659f12dd458d273ead6"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "885e54b8653b7830579b809acaf1a2ae694007a91aaf4b2559e5ad09514defef"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.armv7l-linux-gnueabihf.tar.gz"
 [[cminpack]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "7b96d2e5fe7c9c4408497cc03784d00daca57d4a"
+git-tree-sha1 = "75eb6bfcf49623e5763c48c948afd0db5b8ece9f"
 libc = "musl"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "993fd419d2f63de100004144e6dbdd6fdf6be5981a175b18f0a1b2884821b64d"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "53f3ecb956502e59b5b022ca9f0e0c6cd71aaf0850d88f8b1366e55f134bde4a"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.armv7l-linux-musleabihf.tar.gz"
 [[cminpack]]
 arch = "i686"
-git-tree-sha1 = "2822ba651038cc6a8d9b36ec1583e40ed4be4fc9"
+git-tree-sha1 = "efd29e888c65b8103a6466ef226e402521c37e88"
 libc = "glibc"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "089a13c3242a6081550b277d6b38b5811bbbc98e2d0de8dc147a8c749a20bb82"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.i686-linux-gnu.tar.gz"
+    sha256 = "f6abdbd2e69eb3177016a7c49578b4983e97c6339fbc0413de64495177932592"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.i686-linux-gnu.tar.gz"
 [[cminpack]]
 arch = "i686"
-git-tree-sha1 = "0ae2f0ae43bdd9f6bcb016c309f0fd7216faa972"
+git-tree-sha1 = "d1c2d47b84ec932a5f08cad39969856cf9f4b14c"
 libc = "musl"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "eb169dcb9bcfc580c2c2007a210431d4ddbd4d0a6b4336a85f0b352b2acc7fb9"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.i686-linux-musl.tar.gz"
+    sha256 = "f8e3adb64ec8dcd6d221b04c30b85076549033d8e4d989466915f097d0daacf7"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.i686-linux-musl.tar.gz"
 [[cminpack]]
 arch = "i686"
-git-tree-sha1 = "b3571b5fd9e8a317280eae7483dfcc55b72126bc"
+git-tree-sha1 = "ba688d85e2e653bfa186046ad6611dc532f4f69a"
 os = "windows"
 
     [[cminpack.download]]
-    sha256 = "1314fc24bf4ae8345098c69bdad6a409faeb29bb81dcd8d824fe364cb1120568"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.i686-w64-mingw32.tar.gz"
+    sha256 = "623f6513313cc5e1fc29db8ed8f23b1db32b947217d9518bf9ebd7c21cfbc1dc"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.i686-w64-mingw32.tar.gz"
 [[cminpack]]
 arch = "powerpc64le"
-git-tree-sha1 = "9050552c05b2ed81e18a338b6763270ad48df967"
+git-tree-sha1 = "f62580a4ac7ea4a3f524390b47b8975851fbec3d"
 libc = "glibc"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "f04784ec46d2436fcf607c989b0cd9463fbd5821e15fcdbbaade31ecf5d8569f"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "06620deaa1a17cd22790a5615f49815773672e952b53864c68270fc17377d0e9"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.powerpc64le-linux-gnu.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "d411212fb7207e522a6b827b0eacb4fbced765d9"
+git-tree-sha1 = "d93b1bc756c0899c2d231c80f18fef0662fb2493"
 os = "macos"
 
     [[cminpack.download]]
-    sha256 = "14674d80c6aee72e4424a0ec29ed8f13fdb1edffcc46c7988ed71dbdd7c7bfd1"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.x86_64-apple-darwin.tar.gz"
+    sha256 = "8648bf400c8a94c76f81dc5430e693ccd48310c02b24dfeb7e6695b063c438a6"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.x86_64-apple-darwin.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "e7e8bada37da10a9e48c09cb9a461dd45bd11906"
+git-tree-sha1 = "4d0e44d1c4ff94eb9ae134a822fe7a6f31e75c21"
 libc = "glibc"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "880e8d8578373b224ae26474ce991e77d8e2faa1dc0cad33e6f4ca4de878967e"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.x86_64-linux-gnu.tar.gz"
+    sha256 = "69bd6a8f86014ca97a2b24b2ae06445e2e35baa77bea8e9ee35a43ccd04a0049"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.x86_64-linux-gnu.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "627083e1b87639b76739bbf1040cdbb58a65ad7a"
+git-tree-sha1 = "e8204d3f32af54a183dee58ba3347d0cf81ed790"
 libc = "musl"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "792fec7859d4c96b550d0cb53adfd5c6132e39f9bc060afa1136d7d6118fc6b8"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.x86_64-linux-musl.tar.gz"
+    sha256 = "2da4d5e8291e44edcdf02021d3ebd049fb1623294150b0c3cf2137a73cc175e6"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.x86_64-linux-musl.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "8c7729a8dcef6d1dddb4cead7d284ec2fcb26b0d"
+git-tree-sha1 = "1b8d216777a0c146717de0465eacee00f4790784"
 os = "freebsd"
 
     [[cminpack.download]]
-    sha256 = "3babba4e1fd883aaf588cc6eef0cef4971d835b60255ea18cbb26da7804ca216"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "07876070702e2c832c46ebc2863f7c93516da84b45d9bc66e3290d3498c1d1cc"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.x86_64-unknown-freebsd.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "fd8d7f1690a467bf2c5390fa51f2e1ca268f7f59"
+git-tree-sha1 = "5322e464fa84fcde46b332a6fbd941c085551a9d"
 os = "windows"
 
     [[cminpack.download]]
-    sha256 = "4f5e35d43640468ea92f6ac2e71ce99806c7ff49278aa5a0e0d47f8cccb69e56"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.8+0/cminpack.v1.3.8.x86_64-w64-mingw32.tar.gz"
+    sha256 = "9b273b08a8ac929f773992bc382a94cf3ba9533ae08344a3ef7400603c6af352"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.9+0/cminpack.v1.3.9.x86_64-w64-mingw32.tar.gz"
