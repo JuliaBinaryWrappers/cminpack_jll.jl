@@ -9,13 +9,13 @@ function __init__()
     JLLWrappers.@generate_init_header(libblastrampoline_jll)
     JLLWrappers.@init_library_product(
         libcminpack,
-        "lib/libcminpack.1.3.9.dylib",
+        "lib/libcminpack.1.3.11.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libcminpacks,
-        "lib/libcminpacks.1.3.9.dylib",
+        "lib/libcminpacks.1.3.11.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
