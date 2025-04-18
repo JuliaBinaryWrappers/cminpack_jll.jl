@@ -1,160 +1,458 @@
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "2bb0b8eae02358e93c06c6c2bebbccfd4f10f500"
+git-tree-sha1 = "239fe09fdba1f3776195c9c076c6b79c251dd5d0"
+libgfortran_version = "5.0.0"
 os = "macos"
 
     [[cminpack.download]]
-    sha256 = "87ba0f9aea3d024ca59681db9e6fa8b306b7c079651f0553a705ee6bed971f41"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.aarch64-apple-darwin.tar.gz"
+    sha256 = "7293e06e7e04ddfb0de97dd3971fad2ccd4c009c670df456a78f093080daa5a6"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "8e61ab64a2297796f4b0f8867a2777620b53eb55"
+git-tree-sha1 = "f1bf53b1028b6726a8307f0c5548597ad133acd3"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "d06b788665b14195e1195e06676eba868fdcd96ed7b1b4725bf6f60bd42d480a"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.aarch64-linux-gnu.tar.gz"
+    sha256 = "a8fd34e9b58c791c55a979d66a05a5d00a29ecd37517975a43855678dfc3222d"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "6e5e47a4f937f31aa61179ddede332208a2aa7be"
+git-tree-sha1 = "7f9236370ed813801760890c018aa21414ae34c9"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "308107f881421055b012679e6ffa99dd958a96ca35792e9310f03a0dc0bed4ba"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-linux-gnu-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "aarch64"
+git-tree-sha1 = "9528087ea0555acd0dc352cac21960d619520192"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "f14306c0d818dc8bc96cd5083b7465afca3d996fb251ae947cee5f9cad130a7a"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "aarch64"
+git-tree-sha1 = "fa51660cfba3de7b1c3659868c023bf4b2a80838"
 libc = "musl"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "a2fd5ae16e4f238af7e15ca08b16214458070f03a60221437350ba974a50ca5c"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.aarch64-linux-musl.tar.gz"
+    sha256 = "58f6d22ecb5783ff21c1cb69b3aacfab5b6a33f58344a026a70076d9bbad8440"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-linux-musl-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "aarch64"
-git-tree-sha1 = "cf0bc27eb1e6f1ba9dd0c6f579ca200caecfdc42"
+git-tree-sha1 = "d300ec69b50f93ab7d21840342089e2f99aa8292"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "edded2f0804a14236cf70c01d820cf1b33867f6db6e5e1c90f28f6719b095a50"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-linux-musl-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "aarch64"
+git-tree-sha1 = "209e4d5d8887ec4a73dd642263f53726f7ba5c94"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "46c42b1482487b33dad60383547249707177833cb681e9dcc564bdfe35c79905"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-linux-musl-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "aarch64"
+git-tree-sha1 = "633c0b83676aad1de3ba02a6a30479893a33acf5"
+libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[cminpack.download]]
-    sha256 = "0f737abfb14ea34e0f376750559409efdef4735c38b76c0f7e027eee5d3cfdc1"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "5c83ff7eb23645c54fcbd0a48ef7b78c4f6b7c5d02048e8a67bccae4bef8004c"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.aarch64-unknown-freebsd-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "a21d16d941ef95b4d7e692336717529867f9cead"
+git-tree-sha1 = "74217c0605ed3baa0576775244e0f8abb7fe073c"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "e0c1747199b2b628e8de895bb7b05733d534ec933575aef932ca55c3da68dcb1"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "f7229cb80e1395c07b40325b252d0b3ff1b9cf5b3595c5cb783fd1080e88e46b"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "b4292e828d7114df589388ac08f2aeaa177b3eec"
-libc = "musl"
+git-tree-sha1 = "ecd291aff947d3820d479fb4017facca5459b3e1"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "9095af1faca530588c060ce6f763ba95fb80513a2b23f7b2c2b3adaa0f27d59f"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "e8ec465a62c0b181a581424313a90b832852143ce0db4d9ab147be794011f1d7"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a7ffd6be093291c5b0989a7da68c42f48932918e"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "b7a020a83ba1609ce80fd26f471e3e7266d85586978bd79787d6f38f7e096363"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "cd6c0f9aa1403fed23b7eccc8e36d20fe9a47472"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "5321a929a91a4d026740120bb8f55493627a4c70a8d2c6900f5b826bde8e6bde"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+[[cminpack]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "eb97b79592479fba75dd3eb26697abd54dd0902b"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "c700f4e64348cb0f51623a146aeaef0f6741f5434d6e2ee053a9b7f6fcad26d2"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "dff20c1921c6a5422d464221ca50e56ddee6c41a"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "1305747267c3229e45e0e94bdd57d77773217a231df22ae41267c81ed361bf44"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv6l-linux-musleabihf-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "b283040c3348ba4b5ffffcc708a03598bd294cd8"
+git-tree-sha1 = "dd708884ed3cfd024e31a2d1476270031cd0bf04"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "8e2fbc287d0d370597e82e8ca53368abb62e43c80aec51bff5c18103dc08656a"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "af0d3f211eb8b14c56ce3897a78126028b5d64cc6a8f5df5fab8bfcd129b8bf4"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "710cb9f1e6a127e829791cf3cb41527008798a87"
-libc = "musl"
-os = "linux"
-
-    [[cminpack.download]]
-    sha256 = "4bf7c477fc6f308cb98aede48a78b59608e809aeb2da9d6d54d0fdc968ab97dc"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.armv7l-linux-musleabihf.tar.gz"
-[[cminpack]]
-arch = "i686"
-git-tree-sha1 = "c658ba5a7d18fdf75aed72f9569d62d9d03c590c"
+git-tree-sha1 = "3de5c3508769e20bf34c20e65b26aea774196a0f"
 libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "555b46860c8b9a5808887b41b6cc15aa0909418732dd821bbd6334d5ba79dd51"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.i686-linux-gnu.tar.gz"
+    sha256 = "76199db3f21ba44505324ce9f5e7ce47ee531409927fa53c9783aef6417b0495"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
 [[cminpack]]
-arch = "i686"
-git-tree-sha1 = "db2a7511c3eacb7b5ffb7a477f588aaff08dc236"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "912d7f14ce61fd6f778e4f02a2acf03ec81edce1"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "264e7ef191b339784c53cf081e6059a7c77180639c11d8134e631130b7e27d6b"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f4b95bc253ebf96c99db3a4ce95aba524bda90e1"
 libc = "musl"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "9a6046bf411b47801965a24265b43a6512802aa02550a945b52c003b2e8e053e"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.i686-linux-musl.tar.gz"
+    sha256 = "9f100942ec2677aa407a0defbddfa9edd02dd9d34ac802060525a39e7fe82e0a"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+[[cminpack]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c1fe691c329b28796bceffa5cf2f277e6eae70ad"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "52683cb7113c8f5f9fb49fb55ee5f2286815a88ec70e30bdc3158c57ef8efb48"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2b6766271b1b4789f51e7dacb01658f1c8f94790"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "1423f16106ad61a022ceffd291ea87669fe21a0759a352dfe2f5612c997e705f"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.armv7l-linux-musleabihf-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "i686"
-git-tree-sha1 = "631fdfea97e76c2716bc20101e9685107ad35dd1"
+git-tree-sha1 = "a3586736dd1a5fc00a287eb3bdf7634ae8d32414"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "3302319ea466c5668f02ac9ab439fdf0bc8d7402f9a08531084e45bf866392f4"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-linux-gnu-libgfortran3.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "24726a401d60f7926073888812e584f36bf642a1"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "e4ee12555f3536966465d3d660f9f4c86d4f537e13a571a663dff92f6327a268"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-linux-gnu-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "3434294e6490ec0298271df3739d253a16898822"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "3f98423eade10b4e4c1c553639cecec59f1514642435f2fdf589e87eabbae2a0"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-linux-gnu-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "d0770273cdd237c2c9ea99c7f63b68263d7b43ea"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "dc733337f9bb5e378fc317f3c5bff20e3cc68de9f9175315a5e6d185ad895565"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-linux-musl-libgfortran3.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "d7d4b69a4acbbc1cc0e4fcd7a15fd7cc3b570f9d"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "8bfa4aa16a9e825b5909d053a70b2b48728f5f141ca822c7bd43f5017e1d65fd"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-linux-musl-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "aa5856290981778faed0b696af2d2d36a50a1bdf"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "aef08ced751a084a7b573630d68d4af1bb4afc42a76d2233e71f6a737229f653"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-linux-musl-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "7647dafc2ef95f53d964812bf3c362b1bbe15e7d"
+libgfortran_version = "3.0.0"
 os = "windows"
 
     [[cminpack.download]]
-    sha256 = "4c439021dc1aa93a75999592debc3bb829c62ecc45f2fdd5fe5de2f8d765700d"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.i686-w64-mingw32.tar.gz"
+    sha256 = "2877a126e50e944fce4d269b08194d2eb135373eac6e806e7056f5c12d48fb69"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-w64-mingw32-libgfortran3.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "db7639d5846a85561038b089dda7ab83929419a8"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[cminpack.download]]
+    sha256 = "102f9883bf1c84e2b49d0fefeb1cdb23ac018ffe1839e3100113e3f9ab04fd84"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-w64-mingw32-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "i686"
+git-tree-sha1 = "5a6b645725572c88a07d50a2dd309997d3ed6e16"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[cminpack.download]]
+    sha256 = "6d256ea020ff646b0540218bce95fb12f220e6b29b9c0b3a30fcce473f0abb7b"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.i686-w64-mingw32-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "powerpc64le"
-git-tree-sha1 = "5485ae4e3e0e812221f76a58019f19eeed72e6c9"
+git-tree-sha1 = "51645667e9db81a065fcb0ee4a4253d0123f5594"
 libc = "glibc"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "a885fa8c3a723408c72f1c590150e774119b8e833e16e5ad0c52167b34985ae2"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "e0bdff23a880621a0cc602e74c24bef3a95e6361c801638a0a4d01ee532ea38c"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.powerpc64le-linux-gnu-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "riscv64"
-git-tree-sha1 = "b4ac80fb25892399441deef59a81bb2a1bdd75f1"
+git-tree-sha1 = "f6608e1df1c890f0efbd80b879b5f99223492b2d"
 libc = "glibc"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "9fbd5774de1ba5d027ba58cd680cb192fed0d543d74275c544dd8b015f8aa469"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.riscv64-linux-gnu.tar.gz"
+    sha256 = "71cceb73a0cd7ccb91bff8291ba8c5651ec191a5ac8f62f6dce0ccde526b7929"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.riscv64-linux-gnu-libgfortran5.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "c80880cf77f53ec3a6ea1c08ae7f065383a237bd"
+git-tree-sha1 = "0c7a1edc9595343327d1484a21e57af2cb2fca75"
+libgfortran_version = "3.0.0"
 os = "macos"
 
     [[cminpack.download]]
-    sha256 = "a80c01f69f2a1ac979bef00a899972032072db326fae76a3f904b53de86fd473"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.x86_64-apple-darwin.tar.gz"
+    sha256 = "3364803941416bf6c7a1384c05e01a1b63513863f0b7354fc5b70b4b98057557"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-apple-darwin-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "9e8d05cecb2621d8459dedd66979df02861695dd"
+git-tree-sha1 = "293bd5be6b1981a5a855212cbd63e78203529c7d"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[cminpack.download]]
+    sha256 = "992c68c2b787e955c051063c3655579e8dc065aefca690a5cbbaa10b022dcc54"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "293bd5be6b1981a5a855212cbd63e78203529c7d"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[cminpack.download]]
+    sha256 = "992c68c2b787e955c051063c3655579e8dc065aefca690a5cbbaa10b022dcc54"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "71e5a1da5ec65f295f7805964abf99f1a186ca9b"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "c8e0bf5f2c5209434d31c56ad3370e7281c46bfbe750426356c719fe8477e5bd"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.x86_64-linux-gnu.tar.gz"
+    sha256 = "6c974d761906a48ebf014989e8bd3656b595921f93300c8f8d845b32cbebf5b5"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-linux-gnu-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "340f3eff51401d54afb5e5ba4d0a8d4456f85a69"
+git-tree-sha1 = "1711523426af450829f27e94cfceed4aca8c0f7e"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "e44aa666e357e95ff9073eef9f39a6256abc9cdb360a8a3f59a97cfdf22d42a5"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "97adc3e94ab71eae3d1fd840e3debb88c9984f57"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "6620a03c20c2825b7f401844a31ceed9c3ad6688cf2ea3732a37c69b810443d3"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "7f58da196164356b94bec1ae5388fa59be6ca0bc"
 libc = "musl"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[cminpack.download]]
-    sha256 = "818bb8197f93157c429b4183e7d01137d6c1d9fcb6a516e7d9cb4d196e6fa54c"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.x86_64-linux-musl.tar.gz"
+    sha256 = "cc27fcf6e73022c2ccf0df086e63b5ab55630d1b6fd5a1c95a31ef9830709e4b"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-linux-musl-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "a4c1ef7f84d91b2be77de863e9a9126fc8f9e227"
+git-tree-sha1 = "48fa2ca83c564943fa0f96cffa83c76aacb6bedc"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "8534815091aa5cb207845bbbd32e8f09f5db5df6cefc82bd923a0aea5f480a38"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-linux-musl-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "51690c8c56a260817e7f6effce35be6376da72ab"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[cminpack.download]]
+    sha256 = "d2b4e4dea0a22324ffd049f31548774606e1120a1da84ad761cd25294e3471ea"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-linux-musl-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "e4bf28de6f85a43d32a9670972e73b924f494bd9"
+libgfortran_version = "3.0.0"
 os = "freebsd"
 
     [[cminpack.download]]
-    sha256 = "a461bf33bb6a4b3a4c4c97ef33ffa8a9c85f8867e6a52cafed529eb6acce7acf"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "53bec5221d9dfe658bfdfe8202ec710480192f208d7af33a7d23201bb6522844"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-unknown-freebsd-libgfortran3.tar.gz"
 [[cminpack]]
 arch = "x86_64"
-git-tree-sha1 = "11f7f510fe7bf78f00d0c8b01ee49be4878528d5"
+git-tree-sha1 = "e4bf28de6f85a43d32a9670972e73b924f494bd9"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[cminpack.download]]
+    sha256 = "53bec5221d9dfe658bfdfe8202ec710480192f208d7af33a7d23201bb6522844"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "7ac71bd2e11abcf685f49998208a0b84d7bf0ab4"
+libgfortran_version = "5.0.0"
+os = "freebsd"
+
+    [[cminpack.download]]
+    sha256 = "c32d1bd7c47e9ca6e0be8a75d4096ab2ea26faa7a874904cc6307da7d5a9ffc5"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "524ff44b450a445cc577027777a0dd39b3861b7f"
+libgfortran_version = "3.0.0"
 os = "windows"
 
     [[cminpack.download]]
-    sha256 = "893d7a92cc15d6c415b467c32fc2976bcfec4c189793e574f4ce89285e0676f2"
-    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+0/cminpack.v1.3.11.x86_64-w64-mingw32.tar.gz"
+    sha256 = "a37d04d6597b2bff5b70af34bf861991507b69b0f60d2ad53e6a281dc06795b3"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-w64-mingw32-libgfortran3.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "d65b3e18520ffceb97c69985df0ab20cfd41223f"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[cminpack.download]]
+    sha256 = "cb5efd0897a4d37de849099e434c44ff76d4182436fd78e78f769326b1ff6e75"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-w64-mingw32-libgfortran4.tar.gz"
+[[cminpack]]
+arch = "x86_64"
+git-tree-sha1 = "ee5fa5b7ace9cc5e08bae1e6ba261f7a61d44f99"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[cminpack.download]]
+    sha256 = "7a3d9ae686417ce4071006511bcd2c5073eccf6ccac7dc8d52bd9d175a4ecfe7"
+    url = "https://github.com/JuliaBinaryWrappers/cminpack_jll.jl/releases/download/cminpack-v1.3.11+1/cminpack.v1.3.11.x86_64-w64-mingw32-libgfortran5.tar.gz"
